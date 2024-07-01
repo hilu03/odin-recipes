@@ -1,6 +1,12 @@
+* {
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
 body {
   background-color: lightcyan;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
@@ -20,4 +26,8 @@ img {
 
 ol > li::marker {
   font-weight: bold;
+}
+
+h2 {
+  margin-left: 20px;
 }
