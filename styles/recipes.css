@@ -20,14 +20,31 @@ img {
   width: 50%;
 }
 
-.back-link {
-  text-align: center;
-}
-
 ol > li::marker {
   font-weight: bold;
 }
 
 h2 {
   margin-left: 20px;
+  text-decoration: underline;
+}
+
+p {
+  margin: 15px 30px;
+  text-align: justify;
+}
+
+a {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  background-color: orange;
+  width: 180px;
+  padding: 10px;
+  color: white;
+}
+
+li {
+  margin: 0 10px;
+  text-align: justify;
 }
